@@ -1,0 +1,2 @@
+com/example/weatherapp/test/BuildConfig.java
+ com.example.weatherapp.test.BuildConfig

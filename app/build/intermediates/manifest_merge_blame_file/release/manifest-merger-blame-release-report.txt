@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:8:5-24:19
+15        android:name="com.example.weatherapp.App"
+15-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:9:9-28
+16        android:allowBackup="true"
+16-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\27aa81888ece0a037854be1e0cb6ce7c\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:15:9-35
+22        android:theme="@style/Theme.WeatherApp"
+22-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:16:9-48
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity android:name="com.example.weatherapp.presentation.weatheractivity.view.WeatherActivity" >
+24-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:9-23:20
+24-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:19-84
+25            <intent-filter>
+25-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:18:13-22:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:17-69
+26-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:17-77
+28-->C:\Users\sann1\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\2b16618d317c35421b7ccc54aa1c0c7c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\2b16618d317c35421b7ccc54aa1c0c7c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+34            android:authorities="com.example.weatherapp.lifecycle-process"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\2b16618d317c35421b7ccc54aa1c0c7c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+35            android:exported="false"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\2b16618d317c35421b7ccc54aa1c0c7c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+36            android:multiprocess="true" />
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sann1\.gradle\caches\transforms-2\files-2.1\2b16618d317c35421b7ccc54aa1c0c7c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+37    </application>
+38
+39</manifest>

@@ -1,0 +1,63 @@
+com/example/weatherapp/presentation/citiesactivity/di/CitiesModule_ProvideViewModelFactoryFactory.java
+ com.example.weatherapp.presentation.citiesactivity.di.CitiesModule_ProvideViewModelFactoryFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideWeatherInfoMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideWeatherInfoMapperFactory
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/weatherapp/data/repositories/database/WeatherDao_Impl.java
+ com.example.weatherapp.data.repositories.database.WeatherDao_Impl
+ com.example.weatherapp.data.repositories.database.WeatherDao_Impl$1
+ com.example.weatherapp.data.repositories.database.WeatherDao_Impl$2
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/weatherapp/di/modules/DatabaseModule_ProvideDatabaseFactory.java
+ com.example.weatherapp.di.modules.DatabaseModule_ProvideDatabaseFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideCoordinatesMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideCoordinatesMapperFactory
+com/example/weatherapp/presentation/citiesactivity/view/CitiesActivity_MembersInjector.java
+ com.example.weatherapp.presentation.citiesactivity.view.CitiesActivity_MembersInjector
+com/example/weatherapp/presentation/weatheractivity/view/WeatherActivity_MembersInjector.java
+ com.example.weatherapp.presentation.weatheractivity.view.WeatherActivity_MembersInjector
+com/example/weatherapp/DataBindingTriggerClass.java
+ com.example.weatherapp.DataBindingTriggerClass
+com/example/weatherapp/data/repositories/database/WeatherDatabase_Impl.java
+ com.example.weatherapp.data.repositories.database.WeatherDatabase_Impl
+ com.example.weatherapp.data.repositories.database.WeatherDatabase_Impl$1
+com/example/weatherapp/di/modules/RepositoryModule_ProvideWeatherRepositoryFactory.java
+ com.example.weatherapp.di.modules.RepositoryModule_ProvideWeatherRepositoryFactory
+com/example/weatherapp/DataBinderMapperImpl.java
+ com.example.weatherapp.DataBinderMapperImpl
+ com.example.weatherapp.DataBinderMapperImpl$InnerBrLookup
+ com.example.weatherapp.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/weatherapp/di/modules/InteractorModule_ProvideWeatherInteractorFactory.java
+ com.example.weatherapp.di.modules.InteractorModule_ProvideWeatherInteractorFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideWindMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideWindMapperFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideSysMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideSysMapperFactory
+com/example/weatherapp/di/modules/NetworkModule_ProvideWeatherAPIFactory.java
+ com.example.weatherapp.di.modules.NetworkModule_ProvideWeatherAPIFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideWeatherMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideWeatherMapperFactory
+com/example/weatherapp/presentation/weatheractivity/di/WeatherModule_ProvideViewModelFactoryFactory.java
+ com.example.weatherapp.presentation.weatheractivity.di.WeatherModule_ProvideViewModelFactoryFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideWeatherEventMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideWeatherEventMapperFactory
+com/example/weatherapp/BuildConfig.java
+ com.example.weatherapp.BuildConfig
+com/example/weatherapp/di/modules/NetworkModule_ProvideRetrofitFactory.java
+ com.example.weatherapp.di.modules.NetworkModule_ProvideRetrofitFactory
+com/example/weatherapp/di/modules/MappersModule_ProvideCloudsMapperFactory.java
+ com.example.weatherapp.di.modules.MappersModule_ProvideCloudsMapperFactory
+com/example/weatherapp/di/components/DaggerAppComponent.java
+ com.example.weatherapp.di.components.DaggerAppComponent
+ com.example.weatherapp.di.components.DaggerAppComponent$1
+ com.example.weatherapp.di.components.DaggerAppComponent$Builder
+ com.example.weatherapp.di.components.DaggerAppComponent$CitiesSubComponentBuilder
+ com.example.weatherapp.di.components.DaggerAppComponent$CitiesSubComponentImpl
+ com.example.weatherapp.di.components.DaggerAppComponent$WeatherSubComponentBuilder
+ com.example.weatherapp.di.components.DaggerAppComponent$WeatherSubComponentImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/weatherapp/BR.java
+ com.example.weatherapp.BR
