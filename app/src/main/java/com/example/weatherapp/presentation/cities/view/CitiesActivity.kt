@@ -1,4 +1,4 @@
-package com.example.weatherapp.presentation.citiesactivity.view
+package com.example.weatherapp.presentation.cities.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weatherapp.App
 import com.example.weatherapp.R
-import com.example.weatherapp.presentation.citiesactivity.di.adapters.CitiesAdapter
-import com.example.weatherapp.presentation.citiesactivity.di.factory.CitiesViewModelFactory
-import com.example.weatherapp.presentation.citiesactivity.viewmodel.CitiesViewModel
+import com.example.weatherapp.presentation.cities.di.adapters.CitiesAdapter
+import com.example.weatherapp.presentation.cities.di.factory.CitiesViewModelFactory
+import com.example.weatherapp.presentation.cities.viewmodel.CitiesViewModel
 import com.example.weatherapp.presentation.weather.di.callbacks.OnCityClick
 import javax.inject.Inject
 

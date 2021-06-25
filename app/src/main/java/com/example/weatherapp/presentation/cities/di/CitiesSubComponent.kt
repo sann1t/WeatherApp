@@ -1,7 +1,7 @@
-package com.example.weatherapp.presentation.citiesactivity.di
+package com.example.weatherapp.presentation.cities.di
 
 import com.example.weatherapp.di.scopes.ActivityScope
-import com.example.weatherapp.presentation.citiesactivity.view.CitiesActivity
+import com.example.weatherapp.presentation.cities.view.CitiesActivity
 import dagger.Subcomponent
 
 @ActivityScope

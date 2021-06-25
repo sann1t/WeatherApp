@@ -1,4 +1,4 @@
-package com.example.weatherapp.presentation.citiesactivity.di.adapters
+package com.example.weatherapp.presentation.cities.di.adapters
 
 import android.view.View
 import android.widget.TextView

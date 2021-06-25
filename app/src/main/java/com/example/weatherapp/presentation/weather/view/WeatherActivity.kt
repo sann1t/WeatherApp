@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer
 import com.example.weatherapp.App
 import com.example.weatherapp.R
 import com.example.weatherapp.components.NO_CONNECTION
-import com.example.weatherapp.presentation.citiesactivity.view.CitiesActivity
+import com.example.weatherapp.presentation.cities.view.CitiesActivity
 import com.example.weatherapp.presentation.weather.viewmodel.WeatherViewModel
 import com.example.weatherapp.presentation.weather.di.factory.WeatherViewModelFactory
 import javax.inject.Inject
