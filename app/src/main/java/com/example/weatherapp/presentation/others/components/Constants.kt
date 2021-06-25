@@ -5,3 +5,4 @@ import com.example.weatherapp.BuildConfig
 const val WEATHER_KEY = BuildConfig.WeatherKey
 const val WEATHER_URL = "https://api.openweathermap.org/data/2.5/"
 const val DEFAULT_CITY = "Омск"
+const val NO_CONNECTION = "Нет соединения"

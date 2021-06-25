@@ -15,7 +15,7 @@
         android:theme="@style/Theme.WeatherApp"
         android:usesCleartextTraffic="true">
         <activity android:name=".presentation.citiesactivity.view.CitiesActivity"></activity>
-        <activity android:name=".presentation.weatheractivity.view.WeatherActivity">
+        <activity android:name=".presentation.weather.view.WeatherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

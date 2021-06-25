@@ -3,7 +3,7 @@ package com.example.weatherapp.di.components
 import android.app.Application
 import com.example.weatherapp.di.modules.*
 import com.example.weatherapp.presentation.citiesactivity.di.CitiesSubComponent
-import com.example.weatherapp.presentation.weatheractivity.di.WeatherSubComponent
+import com.example.weatherapp.presentation.weather.di.WeatherSubComponent
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

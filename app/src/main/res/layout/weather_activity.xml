@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".presentation.weatheractivity.view.WeatherActivity">
+    tools:context=".presentation.weather.view.WeatherActivity">
 
 
     <TextView

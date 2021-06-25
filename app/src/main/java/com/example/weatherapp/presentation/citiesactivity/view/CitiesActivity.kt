@@ -15,7 +15,7 @@ import com.example.weatherapp.R
 import com.example.weatherapp.presentation.citiesactivity.di.adapters.CitiesAdapter
 import com.example.weatherapp.presentation.citiesactivity.di.factory.CitiesViewModelFactory
 import com.example.weatherapp.presentation.citiesactivity.viewmodel.CitiesViewModel
-import com.example.weatherapp.presentation.weatheractivity.di.callbacks.OnCityClick
+import com.example.weatherapp.presentation.weather.di.callbacks.OnCityClick
 import javax.inject.Inject
 
 class CitiesActivity : AppCompatActivity(), OnCityClick {

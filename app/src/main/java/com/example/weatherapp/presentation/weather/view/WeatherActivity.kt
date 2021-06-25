@@ -1,4 +1,4 @@
-package com.example.weatherapp.presentation.weatheractivity.view
+package com.example.weatherapp.presentation.weather.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,9 +11,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.weatherapp.App
 import com.example.weatherapp.R
+import com.example.weatherapp.components.NO_CONNECTION
 import com.example.weatherapp.presentation.citiesactivity.view.CitiesActivity
-import com.example.weatherapp.presentation.weatheractivity.viewmodel.WeatherViewModel
-import com.example.weatherapp.presentation.weatheractivity.di.factory.WeatherViewModelFactory
+import com.example.weatherapp.presentation.weather.viewmodel.WeatherViewModel
+import com.example.weatherapp.presentation.weather.di.factory.WeatherViewModelFactory
 import javax.inject.Inject
 
 
@@ -86,7 +87,7 @@ class WeatherActivity: AppCompatActivity() {
             progressBar.visibility = visibilityProgressBar
         })
         viewModel.getToastLiveData().observe(this, Observer {
-            Toast.makeText(this, "Нет соединения", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, NO_CONNECTION, Toast.LENGTH_LONG).show()
         })
     }
     fun onAddCityOnClick(view: View) {

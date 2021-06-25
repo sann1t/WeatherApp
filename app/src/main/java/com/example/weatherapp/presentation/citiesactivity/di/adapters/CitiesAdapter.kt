@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weatherapp.R
 import com.example.weatherapp.domain.models.WeatherInfo
-import com.example.weatherapp.presentation.weatheractivity.di.callbacks.OnCityClick
+import com.example.weatherapp.presentation.weather.di.callbacks.OnCityClick
 
 class CitiesAdapter(private val onCityClick: OnCityClick): RecyclerView.Adapter<CitiesViewHolder>() {
 
